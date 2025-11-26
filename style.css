@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 20px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.button {
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap; 
+}
+
+.left-div {
+    width: 40%;
+}
+
+.left-div .heding {
+    font-size: 35px;
+}
+
+.text-color {
+    color: #088dde;
+}
+
+.Bookbtn {
+    margin-top: 30px;
+    height: 3rem;
+    border-radius: 6%;
+    color: white;
+    background-color: #088dde;
+    border: none;
+    padding: 20px;
+}
+
+.right-div img {
+    height: 350px;
+}
+
+
+@media (max-width: 900px) {
+
+    .list {
+        flex-direction: column;
+        gap: 8px;
+        font-size: medium;
+    }
+
+    .button {
+        margin: 10px auto 0 auto;
+        padding-right: 0;
+    }
+
+    #hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-div,
+    .right-div {
+        width: 100%;
+    }
+
+    .Bookbtn {
+        width: 80%;
+    }
+
+    .right-div img {
+        width: 80%;
+        max-width: 350px;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .left-div .heding {
+        font-size: 24px;
+    }
+
+    .list {
+        font-size: small;
+    }
+
+    .Bookbtn {
+        width: 90%;
+    }
+}
+
+
+
